@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.1.0",
+  "description": "WhatsApp bot with popular commands, dot prefix and .on/.off switch (Baileys, pairing-code login)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "pino": "^8.21.0"
+  },
+  "optionalDependencies": {
+    "wa-sticker-formatter": "^4.4.4"
+  }
+}
